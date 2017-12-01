@@ -7,11 +7,29 @@
     <link rel="stylesheet" href="css/core.nested.css">
   </head>
   <body>
-    <h1>Yu Gi Oh: Battle Masters</h1>
-    <div id="username_wrap">
+    <!--  take out bm_menu class so it stays blurred and in the middle of the screen
+          and appears as the username step
+    -->
+    <h1 class="bm_menu">Yu Gi Oh: Battle Masters</h1>
+    <!--  take out hide class to test the username selection step -->
+    <div id="username_wrap" class="hide">
       <div class="completed">All set!</div>
       <div class="username_label">Set your username</div>
-      <input type="text" name="username_input" value="" placeholder="Coolio!">
+      <input id="username" type="text" value="" placeholder="Coolio!">
+      <ul>
+        <li class="win"></li>
+        <li class="win"></li>
+        <li class="win"></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <!--  comment the menu if you take out hide because it kinda breaks the UI  -->
+    <div class="bm_menu_v2">
+      <div class="battle">Battle!</div>
+      <div class="decks"></div>
+      <div class="news"></div>
+      <div class="history"></div>
     </div>
     <!--
     <div class="main_menu_wrap">
