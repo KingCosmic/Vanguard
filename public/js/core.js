@@ -13,9 +13,9 @@ $('input').keydown(() => {
 });
 
 // TESTING CLASSES
-/*$('li').click(function () {
-  $(this).toggleClass('win');
-});*/
+// $('body').click(function () {
+//   $('div#versus_clash').toggleClass('battle_pos');
+// });
 
 $('div#username_wrap').click(() => {
   if (all_set == true && $('div#username_wrap').hasClass('all_set')) {
