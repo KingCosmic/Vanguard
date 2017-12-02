@@ -3,7 +3,7 @@
     King u suck.
 */
 var all_set;
-$('input').keydown((event) => {
+$('input').keydown(() => {
   console.log("dud");
   if ($('input#username').val().length == 4) {
     $('div#username_wrap').addClass('all_set');
@@ -11,6 +11,11 @@ $('input').keydown((event) => {
     $('h1').css({'text-shadow': '0 0 0px rgba(40, 41, 42, .98)'});
   };
 });
+
+// TESTING CLASSES
+/*$('li').click(function () {
+  $(this).toggleClass('win');
+});*/
 
 $('div#username_wrap').click(() => {
   if (all_set == true && $('div#username_wrap').hasClass('all_set')) {
