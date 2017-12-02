@@ -43,7 +43,7 @@ html, body {
 	html div.bm_menu_v2, body div.bm_menu_v2 {
 		width: 1200px;
 		height: 560px;
-		background-color: rgba(40, 41, 42, 0.05);
+		background-color: rgba(40, 41, 42, 0);
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -78,6 +78,14 @@ html, body {
 			position: absolute;
 			bottom: 0;
 			left: 0; }
+		html div.bm_menu_v2 div.decks, body div.bm_menu_v2 div.decks {
+			width: 730px;
+			height: 560px;
+			position: absolute;
+			right: 0;
+			top: 0;
+			border-radius: 2px;
+			background-color: #28292a; }
 	html div#username_wrap.all_set, body div#username_wrap.all_set {
 		transition: 1s all ease-in-out;
 		transform: rotateX(195deg);
